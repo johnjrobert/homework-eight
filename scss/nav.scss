@@ -1,0 +1,33 @@
+#header {
+  background-color: #16262e;
+  text-decoration: none;
+  display: flex;
+  justify-content: space-around;
+  //   justify-content: center;
+  font-size: 30px;
+  height: 75px;
+  width: 100%;
+  align-items: center;
+  font-family: cavBold;
+  position: fixed;
+
+  #home {
+    text-decoration: none;
+    color: #dbc2cf;
+  }
+
+  #places {
+    text-decoration: none;
+    color: #dbc2cf;
+  }
+
+  #cities {
+    text-decoration: none;
+    color: #dbc2cf;
+  }
+
+  #contact {
+    text-decoration: none;
+    color: #dbc2cf;
+  }
+}

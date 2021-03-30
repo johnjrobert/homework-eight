@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  background-color: #9fa2b2;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-bottom: 16px;
+}
+
+.para {
+  font-size: 20px;
+  padding: 15px;
+  color: #2e4756;
+  font-family: cavReg;
+}
+
+.ima {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+// .topPara {
+//   font-family: helv;
+// }
+
+// .otherPara {
+//   font-family: helv;
+// }
+
+@font-face {
+  font-family: cavBold;
+  src: url("fonts/Caveat-Bold.ttf");
+}
+
+@font-face {
+  font-family: cavReg;
+  src: url("fonts/HelveticaLTStd-Light.otf");
+}

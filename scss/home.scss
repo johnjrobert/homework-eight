@@ -1,0 +1,95 @@
+.placeHeader {
+  margin: 0 auto;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  font-size: 80px;
+  color: #3c7a89;
+}
+
+.homeStuff {
+  //   background: chartreuse;
+  display: flexbox;
+  align-items: center;
+  justify-content: space-between;
+  width: 1400px;
+  height: 100%;
+  margin: 0 auto;
+  padding-top: 30px;
+
+  .sectOne {
+    height: 100%;
+    width: 100%;
+    // background-color: #3a2449;
+
+    .ima {
+      width: 100%;
+      height: 200px;
+      background-color: cornflowerblue;
+      background-image: url(../assests/images/maxresdefault.jpg);
+    }
+
+    .para {
+      width: 30%;
+      justify-content: center;
+      margin: 0 auto;
+    }
+  }
+
+  .sectTwo {
+    height: 100%;
+    width: 100%;
+    // background-color: #3a2449;
+
+    .ima {
+      width: 100%;
+      height: 200px;
+      background-color: cornflowerblue;
+      background-image: url(../assests/images/London-with-rainbow-Houses-of-parliament-Big-ben-iStock_000051762496_small.jpg);
+    }
+
+    .para {
+      width: 30%;
+      justify-content: center;
+      margin: 0 auto;
+    }
+  }
+
+  .sectThree {
+    height: 100%;
+    width: 100%;
+    // background-color: #3a2449;
+
+    .ima {
+      width: 100%;
+      height: 200px;
+      background-color: cornflowerblue;
+      background-image: url(../assests/images/can-you-guess-the-famous-cities-that-own-these-sk-2-6810-1427333023-12_dblbig.jpg);
+    }
+
+    .para {
+      width: 30%;
+      justify-content: center;
+      margin: 0 auto;
+    }
+  }
+
+  .sectFour {
+    height: 100%;
+    width: 100%;
+    // background-color: #3a2449;
+
+    .ima {
+      width: 100%;
+      height: 200px;
+      background-color: cornflowerblue;
+      background-image: url(../assests/images/Amsterdam-GettyImages-840603854.webp);
+    }
+
+    .para {
+      width: 30%;
+      justify-content: center;
+      margin: 0 auto;
+    }
+  }
+}

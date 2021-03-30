@@ -1,0 +1,367 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  background-color: #9fa2b2;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-bottom: 16px;
+}
+
+.para {
+  font-size: 20px;
+  padding: 15px;
+  color: #2e4756;
+  font-family: cavReg;
+}
+
+.ima {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+@font-face {
+  font-family: cavBold;
+  src: url("fonts/Caveat-Bold.ttf");
+}
+@font-face {
+  font-family: cavReg;
+  src: url("fonts/HelveticaLTStd-Light.otf");
+}
+#header {
+  background-color: #16262e;
+  text-decoration: none;
+  display: flex;
+  justify-content: space-around;
+  font-size: 30px;
+  height: 75px;
+  width: 100%;
+  align-items: center;
+  font-family: cavBold;
+  position: fixed;
+}
+#header #home {
+  text-decoration: none;
+  color: #dbc2cf;
+}
+#header #places {
+  text-decoration: none;
+  color: #dbc2cf;
+}
+#header #cities {
+  text-decoration: none;
+  color: #dbc2cf;
+}
+#header #contact {
+  text-decoration: none;
+  color: #dbc2cf;
+}
+
+#hello {
+  margin: 0 auto;
+}
+
+.placeHeader {
+  margin: 0 auto;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  font-size: 70px;
+  color: #3c7a89;
+  font-family: cavBold;
+  padding-top: 70px;
+}
+
+.topPara {
+  margin: 0 auto;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  font-size: 20px;
+  color: #3c7a89;
+  width: 900px;
+  font-family: helv;
+}
+
+.placeStuff {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 1400px;
+  height: 100%;
+  margin: 0 auto;
+  padding-top: 30px;
+}
+.placeStuff .sectOne {
+  height: 100%;
+  width: 300px;
+}
+.placeStuff .sectOne .ima {
+  width: 300px;
+  height: 200px;
+  background-color: cornflowerblue;
+  background-image: url(../assests/images/1.jpg);
+}
+.placeStuff .sectTwo {
+  height: 100%;
+  width: 300px;
+}
+.placeStuff .sectTwo .ima {
+  width: 300px;
+  height: 200px;
+  background-color: cornflowerblue;
+  background-image: url(../assests/images/2-nature.jpg);
+}
+.placeStuff .sectThree {
+  height: 100%;
+  width: 300px;
+}
+.placeStuff .sectThree .ima {
+  width: 300px;
+  height: 200px;
+  background-color: cornflowerblue;
+  background-image: url(../assests/images/3.jpg);
+}
+.placeStuff .sectFour {
+  height: 100%;
+  width: 300px;
+}
+.placeStuff .sectFour .ima {
+  width: 300px;
+  height: 200px;
+  background-color: cornflowerblue;
+  background-image: url(../assests/images/4.webp);
+}
+
+.placeHeader {
+  margin: 0 auto;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  font-size: 80px;
+  color: #3c7a89;
+}
+
+.homeStuff {
+  display: flexbox;
+  align-items: center;
+  justify-content: space-between;
+  width: 1400px;
+  height: 100%;
+  margin: 0 auto;
+  padding-top: 30px;
+}
+.homeStuff .sectOne {
+  height: 100%;
+  width: 100%;
+}
+.homeStuff .sectOne .ima {
+  width: 100%;
+  height: 200px;
+  background-color: cornflowerblue;
+  background-image: url(../assests/images/maxresdefault.jpg);
+}
+.homeStuff .sectOne .para {
+  width: 30%;
+  justify-content: center;
+  margin: 0 auto;
+}
+.homeStuff .sectTwo {
+  height: 100%;
+  width: 100%;
+}
+.homeStuff .sectTwo .ima {
+  width: 100%;
+  height: 200px;
+  background-color: cornflowerblue;
+  background-image: url(../assests/images/London-with-rainbow-Houses-of-parliament-Big-ben-iStock_000051762496_small.jpg);
+}
+.homeStuff .sectTwo .para {
+  width: 30%;
+  justify-content: center;
+  margin: 0 auto;
+}
+.homeStuff .sectThree {
+  height: 100%;
+  width: 100%;
+}
+.homeStuff .sectThree .ima {
+  width: 100%;
+  height: 200px;
+  background-color: cornflowerblue;
+  background-image: url(../assests/images/can-you-guess-the-famous-cities-that-own-these-sk-2-6810-1427333023-12_dblbig.jpg);
+}
+.homeStuff .sectThree .para {
+  width: 30%;
+  justify-content: center;
+  margin: 0 auto;
+}
+.homeStuff .sectFour {
+  height: 100%;
+  width: 100%;
+}
+.homeStuff .sectFour .ima {
+  width: 100%;
+  height: 200px;
+  background-color: cornflowerblue;
+  background-image: url(../assests/images/Amsterdam-GettyImages-840603854.webp);
+}
+.homeStuff .sectFour .para {
+  width: 30%;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.mainStuff {
+  display: flexbox;
+  align-items: center;
+  justify-content: space-between;
+  width: 1400px;
+  height: 100%;
+  margin: 0 auto;
+  padding-top: 30px;
+}
+.mainStuff .sectOne {
+  height: 100%;
+  width: 100%;
+}
+.mainStuff .sectOne .ima {
+  width: 100%;
+  height: 800px;
+  background-color: cornflowerblue;
+  background-image: url(../assests/images/5.jpg);
+}
+.mainStuff .sectOne .para {
+  width: 30%;
+  justify-content: center;
+  margin: 0 auto;
+}
+.mainStuff .sectTwo {
+  height: 100%;
+  width: 100%;
+}
+.mainStuff .sectTwo .ima {
+  width: 100%;
+  height: 800px;
+  background-color: cornflowerblue;
+  background-image: url(../assests/images/6.webp);
+}
+.mainStuff .sectTwo .para {
+  width: 30%;
+  justify-content: center;
+  margin: 0 auto;
+}
+.mainStuff .sectThree {
+  height: 100%;
+  width: 100%;
+}
+.mainStuff .sectThree .ima {
+  width: 100%;
+  height: 800px;
+  background-color: cornflowerblue;
+  background-image: url(../assests/images/7.jpg);
+}
+.mainStuff .sectThree .para {
+  width: 30%;
+  justify-content: center;
+  margin: 0 auto;
+}
+.mainStuff .sectFour {
+  height: 100%;
+  width: 100%;
+}
+.mainStuff .sectFour .ima {
+  width: 100%;
+  height: 800px;
+  background-color: cornflowerblue;
+  background-image: url(../assests/images/8.jpg);
+}
+.mainStuff .sectFour .para {
+  width: 30%;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.topPara {
+  margin: 0 auto;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  font-size: 15px;
+  color: #3c7a89;
+  width: 900px;
+  font-family: cavReg;
+}
+
+.contactStuff {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 1000px;
+  height: 100%;
+  margin: 0 auto;
+  padding-top: 25px;
+}
+.contactStuff .sectOne {
+  height: 100%;
+  width: 200px;
+}
+.contactStuff .sectOne .ima {
+  width: 200px;
+  height: 200px;
+  background-color: cornflowerblue;
+  background-image: url(../assests/images/facebook.jpg);
+}
+.contactStuff .sectOne .para {
+  font-size: 16px;
+}
+.contactStuff .sectTwo {
+  height: 100%;
+  width: 200px;
+}
+.contactStuff .sectTwo .ima {
+  width: 200px;
+  height: 200px;
+  background-image: url(../assests/images/gmail.png);
+}
+.contactStuff .sectTwo .para {
+  font-size: 16px;
+}
+.contactStuff .sectThree {
+  height: 100%;
+  width: 200px;
+}
+.contactStuff .sectThree .ima {
+  width: 200px;
+  height: 200px;
+  background-color: cornflowerblue;
+  background-image: url(../assests/images/twitter.jpg);
+}
+.contactStuff .sectThree .para {
+  font-size: 16px;
+}
+.contactStuff .sectFour {
+  height: 100%;
+  width: 200px;
+}
+.contactStuff .sectFour .ima {
+  width: 200px;
+  height: 200px;
+  background-image: url(../assests/images/phone.png);
+}
+.contactStuff .sectFour .para {
+  font-size: 16px;
+}

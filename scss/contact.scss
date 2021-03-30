@@ -1,0 +1,89 @@
+.topPara {
+  margin: 0 auto;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  font-size: 15px;
+  color: #3c7a89;
+  width: 900px;
+  font-family: cavReg;
+}
+
+.contactStuff {
+  //   background: chartreuse;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 1000px;
+  height: 100%;
+  margin: 0 auto;
+  padding-top: 25px;
+
+  .sectOne {
+    height: 100%;
+    width: 200px;
+    // background-color: #3a2449;
+
+    .ima {
+      width: 200px;
+      height: 200px;
+      background-color: cornflowerblue;
+      background-image: url(../assests/images/facebook.jpg);
+    }
+
+    .para {
+      font-size: 16px;
+    }
+  }
+
+  .sectTwo {
+    height: 100%;
+    width: 200px;
+    // background-color: #3a2449;
+
+    .ima {
+      width: 200px;
+      height: 200px;
+      //   background-color: cornflowerblue;
+      background-image: url(../assests/images/gmail.png);
+    }
+
+    .para {
+      font-size: 16px;
+    }
+  }
+
+  .sectThree {
+    height: 100%;
+    width: 200px;
+    // background-color: #3a2449;
+
+    .ima {
+      width: 200px;
+      height: 200px;
+      background-color: cornflowerblue;
+      background-image: url(../assests/images/twitter.jpg);
+    }
+
+    .para {
+      font-size: 16px;
+    }
+  }
+
+  .sectFour {
+    height: 100%;
+    width: 200px;
+    // background-color: #3a2449;
+
+    .ima {
+      width: 200px;
+      height: 200px;
+      //   background-color: cornflowerblue;
+      background-image: url(../assests/images/phone.png);
+    }
+
+    .para {
+      font-size: 16px;
+    }
+  }
+}
